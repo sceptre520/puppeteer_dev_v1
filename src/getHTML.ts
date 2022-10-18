@@ -1,4 +1,6 @@
-const puppeteer = require('puppeteer');
+// const puppeteer = require('puppeteer');
+
+import puppeteer from 'puppeteer'
 
 export const getWholeDom = async (url:string) => {
   const browser = await puppeteer.launch();
