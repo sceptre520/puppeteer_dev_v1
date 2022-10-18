@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es2017",
-    "lib": ["es2017", "esnext.asynciterable"],
+    "lib": ["es2017", "esnext.asynciterable", "dom"],
     /* Modules */
     "module": "commonjs",                                /* Specify what module code is generated. */
     "rootDir": "src",                                    /* Specify the root folder within your source files. */
