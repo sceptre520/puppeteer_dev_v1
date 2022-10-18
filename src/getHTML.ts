@@ -5,7 +5,7 @@ export const getWholeDom = async (url:string) => {
   const page = await browser.newPage();
 
   await page.goto(url, {waitUntil: 'networkidle2'});
-  let bodyHTML = await page.evaluate(() => document.body.innerHTML);
+  let bodyHTML = await page.content();
 
   await browser.close();
 
